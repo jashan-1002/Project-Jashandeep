@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page Markup And Formatting </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="page_markup.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <!--Nav Bar Start-->
+        <nav id="navbar_j" class="navbar navbar-expand-lg navbar-light bg-light mx-20">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="home.html">HOME</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle  nav-link active" href="about_the_test.html" target="_blank"
+                    id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    ABOUT THE TESTS
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="page_markup_and form.html" target="_blank">Page Markup And
+                        Formatting</a></li>
+                    <li><a class="dropdown-item" href="clear_float.html" target="_blank">Clearing Floats</a></li>
+                    <li><a class="dropdown-item" href="page_with_comments.html" target="_blank">Page with comments</a>
+                    </li>
+                    <li><a class="dropdown-item" href="page_com_disabl.html" target="_blank">Page with comments
+                        disabled</a></li>
+                    <li><a class="dropdown-item" href="lorem.html" target="_blank">Lorem Ipsumm</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle nav-link active" href="level_1.html" target="_blank" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    LEVEL 1
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="level_2.html" target="_blank">Level 2</a></li>
+                    <li><a class="dropdown-item" href="level_3.html" target="_blank">Level 3</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-link active" href="shop.html" target="_blank">SHOP</a>
+                </li>
+              </ul>
+              <form id="navbarform" class="d-flex">
+                <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search" />
+                <button style="width: 55px; border-radius: 5px; background-color: white; border: 1px solid #CACACA;"
+                  type="submit">
+                  <i> <img src="Images/magnifying-glass.png" alt="image"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <!--Nav Bar End-->
+      </div>
+    </div>
+    <!--Main Heading section Start-->
+    <div class="row">
+      <div class="col">
+        <section class="mainheading mt-4 mb-3 text-center">
+          <div>
+            <h1 id="main_activello">ACTIVELLO</h1>
+            <p>Just another colorlib.com site</p>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!--Main Heading section End-->
+    <div class="container">
+      <hr>
+    </div>
+    <!--Post Formates Start-->
+    <div class="row">
+      <div class="col-md-7 offset-md-1  ">
+        <div class="container">
+          <h2 class="textNeedCenter">Page Markup And Formatting</h2>
+          <p>
+            <strong>
+              Page Markup And Formatting
+            </strong>
+          </p>
+          <h1>Heading One</h1>
+          <h2>Heading Two</h2>
+          <h3>Heading Three</h3>
+          <h4>Heading Four</h4>
+          <h5>Heading Five</h5>
+          <h6>Heading Six</h6>
+          <br>
+          <h2>Blockquote</h2>
+          <p>
+            Single line blockquote:
+          </p>
+          <blockquote>
+            Stay hungry. Stay foolish.
+          </blockquote>
+          <p>
+            Multi line blockquote with a cite reference:
+          </p>
+          <blockquote>
+            People think focus means saying yes to the thing you’ve got to focus on. But that’s not what it means at
+            all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I’m
+            actually as proud of the things we haven’t done as the things I have done. Innovation is saying no to 1,000
+            things. Steve Jobs – Apple Worldwide Developers’ Conference, 1997
+          </blockquote>
+          <div>
+            <table class="table table-hover">
+              <tbody>
+                <tr>
+                  <th scope="col">Employee</th>
+                  <th scope="col">Salary</th>
+                  <th scope="col"></th>
+                </tr>
+                <tr>
+                  <td>Jane</td>
+                  <td>$1</td>
+                  <td>Because that’s all Steve Job’ needed for a salary.</td>
+                </tr>
+                <tr>
+                  <td>John</td>
+                  <td>$100K</td>
+                  <td>For all the blogging he does.</td>
+                </tr>
+                <tr>
+                  <td>Jane</td>
+                  <td>$100M</td>
+                  <td>Pictures are worth a thousand words, right? So Tom x 1,000.</td>
+                </tr>
+                <tr>
+                  <td>Jane</td>
+                  <td>$100B</td>
+                  <td>With hair like that?! Enough said…</td>
+                </tr>
+              </tbody>
+            </table>
+            <br>
+            <h5>Definition Lists</h5>
+            <br>
+            <dl>
+              <dt>Definition List Title</dt>
+              <dd>Definition list division.</dd>
+              <dt>Startup</dt>
+              <dd>A startup company or startup is a company or temporary organization designed to search for a
+                repeatable and scalable business model.</dd>
+              <dt>#dowork</dt>
+              <dd>Coined by Rob Dyrdek and his personal body guard Christopher “Big Black” Boykins, “Do Work” works as a
+                self motivator, to motivating your friends.
+              </dd>
+              <dt>Do It Live</dt>
+              <dd>I’ll let Bill O’Reilly will explain this one.
+              </dd>
+            </dl>
+            <br>
+            <h5>Unordered Lists (Nested)</h5>
+            <br>
+            <ul>
+              <li>List item One
+                <ul>
+                  <li>List item One</li>
+                  <ul>
+                    <li>List item One</li>
+                    <li>List item Two</li>
+                    <li>List item Three</li>
+                    <li>List item Four</li>
+                  </ul>
+                  <li>List item Two</li>
+                  <li>List item Three</li>
+                  <li>List item Four</li>
+                </ul>
+              </li>
+              <li>List item Two</li>
+              <li>List item Three</li>
+              <li>List item Four</li>
+            </ul>
+            <br>
+            <h5>Ordered List (Nested)</h5>
+            <br>
+            <ol>
+              <li>List item One
+                <ol>
+                  <li>List item One</li>
+                  <ol>
+                    <li>List item One</li>
+                    <li>List item Two</li>
+                    <li>List item Three</li>
+                    <li>List item Four</li>
+                  </ol>
+                  <li>List item Two</li>
+                  <li>List item Three</li>
+                  <li>List item Four</li>
+                </ol>
+              </li>
+              <li>List item Two</li>
+              <li>List item Three</li>
+              <li>List item Four</li>
+            </ol>
+            <br>
+            <h5>HTML Tags</h5>
+            <br>
+            <p>These supported tags come from the WordPress.com code FAQ.</p>
+            <p>
+              <strong> Address Tag</strong>
+            </p>
+            <p>
+            <address>
+              1 Infinite Loop <br>
+              Cupertino, CA 95014<br>
+              United States<br>
+            </address>
+            </p>
+            <p>
+              <strong> Anchor Tag (aka. Link) </strong>
+            </p>
+            <p>
+              This is an example of a <a class="link_none" title="Apple" href="https://www.apple.com/">link.</a>
+            </p>
+            <p>
+              <strong> Abbreviation Tag</strong>
+            </p>
+            <p>
+              The abbreviation <abbr title="Seriously"> srsly </abbr>stands for “seriously”.
+            </p>
+            <p>
+              <strong>Acronym Tag </strong>
+            </p>
+            <p>
+              The acronym <acronym title="for the win">ftw</acronym> stands for “for the win”.
+            </p>
+            <p>
+              <strong>Big Tag </strong>
+            </p>
+            <p>
+              These tests are a big deal, but this tag is no longer supported in <big>HTML 5</big>.
+            </p>
+            <p>
+              <strong> Cite Tag</strong>
+            </p>
+            <p>
+              “Code is poetry.”<cite> —Automattic</cite>
+            </p>
+            <p>
+              <strong> Code Tag</strong>
+            </p>
+            <p> You will learn later on in these tests that <code> word-wrap: break-word; </code>will be your best
+              friend.
+            </p>
+            <p>
+              <strong>Delete Tag </strong>
+            </p>
+            <p>
+              This tag will let you <del>strikeout text</del> , but this tag is no longer supported in HTML5 (use the
+              <code>&lt;strike&gt;</code> instead).
+            </p>
+            <p>
+              <strong>Emphasize Tag </strong>
+            </p>
+            <p>
+              The emphasize tag should<em> italicize </em> text.
+            </p>
+            <p>
+              <strong>Insert Tag </strong>
+            </p>
+            <p>
+              This tag should denote <ins>inserted</ins> text.
+            </p>
+            <p>
+              <strong> Keyboard Tag </strong>
+            </p>
+            <p>
+              This scarcely known tag emulates <kbd>keyboard text</kbd> , which is usually styled like the
+              <code>&lt;code&gt;</code> tag.
+            </p>
+            <p>
+              <strong> Preformatted Tag</strong>
+            </p>
+            <p>
+              This tag styles large blocks of code.
+            <pre class="preformated_text">
+    .post-title {
+	margin: 0 0 5px;
+	font-weight: bold;
+	font-size: 38px;
+	line-height: 1.2;
+        }
+       </pre>
+            </p>
+            <p>
+              <strong>Quote Tag </strong>
+            </p>
+            <p>
+              <q>Developers, developers, developers…</q> –Steve Ballmer
+            </p>
+            <p>
+              <strong>Strong Tag </strong>
+            </p>
+            <p>
+              This tag shows <strong> bold text.</strong>
+            </p>
+            <p>
+              <strong> Subscript Tag</strong>
+            </p>
+            <p>
+              Getting our science styling on with H<sub>2</sub>O, which should push the “2” down.
+            </p>
+            <p>
+              <strong>Superscript Tag </strong>
+            </p>
+            <p>
+              Still sticking with science and Isaac Newton’s E = MC<sup>2</sup>, which should lift the 2 up.
+            </p>
+            <p>
+              <strong>Teletype Tag </strong>
+            </p>
+            <p>
+              This rarely used tag emulates <tt> teletype text</tt>, which is usually styled like the
+              <code>&lt;code&gt;</code> tag.
+            </p>
+            <p>
+              <strong>Variable Tag </strong>
+            </p>
+            <p>This allows you to denote
+              <var>
+                variables.
+              </var>
+            </p>
+            <h3 class="textNeedCenter"> <strong>LEAVE A REPLY </strong> </h3>
+            <div class="container  textNeedCenter">
+              <form action="">
+                <textarea id="comments" name="comment" cols="45" rows="8" aria-required="true"
+                  placeholder="Comment"></textarea>
+                <div class="row form-group">
+                  <div class="col-md-4">
+                    <input type="text" placeholder="Name" class="form-control input_mar_padd ">
+                  </div>
+                  <div class="col-md-4">
+                    <input type="text" placeholder="Email" class="form-control input_mar_padd ">
+                  </div>
+                  <div class="col-md-4">
+                    <input type="text" placeholder="Website" class="form-control input_mar_padd ">
+                  </div>
+                  <a href="" style="text-align: start;">
+                    <button type="button" id="postreply_btn" class="btn">Primary</button>
+                  </a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Post Formates End-->
+      <!--About me aside Start-->
+      <div class="col-lg-4 float-lg-right">
+        <div class="aside_html mx-lg-5">
+          <aside class="flex-container2">
+            <div class="" class="flex-item">
+              <h5 class="my-5 mt-1 aside_text">ABOUT ME</h5>
+              <div class="horizontal_line">
+              </div>
+              <div>
+                <div class="card mb-4 " class="flex-item">
+                  <img src="Images/img38.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make up the
+                      bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+                <div class="my-2" class="flex-item">
+                  <h5 class="aside_text">FOLLOW ME</h5>
+                  <div>
+                    <a id="social_media-icons" href="#">
+                      <a href="https://www.youtube.com/"><img class="mx-2" src="Images/youtube(1).png"
+                          alt="YT image" /></a>
+                      <a href="https://www.facebook.com/"><img class="mx-2" src="Images/facebook(1).png"
+                          alt="FB image" /></a>
+                      <a href="https://www.instagram.com/"><img class="mx-2" src="Images/instagram(1).png"
+                          alt="instagram image" /></a>
+                      <a href="https://in.linkedin.com/"><img class="mx-2" src="Images/linkedin(1).png"
+                          alt="linkedin image" /></a>
+                      <a href="https://github.com/"><img class="mx-2" src="Images/github-logo.png" alt="github image" />
+                        <a href="https://www.google.com/"><img class="mx-2" src="Images/google-plus (1).png"
+                            alt="google image" /></a>
+                        <a href="https://twitter.com/?lang=en"><img class="mx-2" src="Images/twitter (2).png"
+                            alt="twitter image" /></a>
+                      </a>
+                  </div>
+                </div>
+                <div class="flex-item2">
+                  <h5 class="  mt-4 mb-3 aside_text">RECENTS POST</h5>
+                  <div class="card mb-3 ">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img class="img_recentpost" src="Images/img34.jpg" alt="..." />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p style="text-overflow: ellipsis; " style="text-overflow: ellipsis;">
+                            This is a wider card with supporting text below as a natural
+                            lead-in to additional content.
+                          </p>
+                          <p class="card-text" style="text-overflow: ellipsis;"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img class="img_recentpost" src="Images/img35.jpg" alt="Images" />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text" style="text-overflow: ellipsis;">
+                            This is a wider card with supporting text below as a natural
+                            lead-in to additional content.
+                          </p>
+                          <p class="card-text" style="text-overflow: ellipsis;"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img class="img_recentpost" src="Images/img36.jpg" alt="Images" />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text" style="text-overflow: ellipsis;">
+                            This is a wider card with supporting text below as a natural
+                            lead-in to additional content.
+                          </p>
+                          <p class="card-text" style="text-overflow: ellipsis;"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form id="navbarform" class="d-flex" class="flex-item">
+                    <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search" />
+                    <button style="width: 55px; border-radius: 5px; background-color: white; border: 1px solid #CACACA;"
+                      type="submit">
+                      <i> <img src="Images/magnifying-glass.png" alt="image"></i>
+                    </button>
+                  </form>
+                </div>
+                <div class="flex-item">
+                  <h5 class="my-4 aside_text">CATEGORIES</h5>
+                  <ul>
+                    <a href="">
+                      <li id="category_list">List Item- 1 <span>4</span></li>
+                    </a>
+                    <a href="">
+                      <li id="category_list" id="category_list">List Item- 2 <span>5</span></li>
+                    </a>
+                    <a href="">
+                      <li id="category_list" id="category_list">List Item- 3 <span>9</span></li>
+                    </a>
+                    <a href="">
+                      <li id="category_list" id="category_list">List Item- 4 <span>4</span></li>
+                    </a>
+                    <a href="">
+                      <li id="category_list" id="category_list">List Item- 5 <span>12</span></li>
+                    </a>
+                  </ul>
+                </div>
+                <div class="flex-item">
+                  <h6 class="my-5 aside_text">Any text goes here</h6>
+                </div>
+                <div class="flex-item">
+                  <h5 class="my-5 aside_text">THIS THEME IS ADSENSE READY</h5>
+                </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+    <!--About me aside end-->
+  </div>
+  <!-- Footer Start-->
+  <div class="row ">
+    <div class="col-md">
+      <footer id="footer" class=" mt-5  ">
+        <div class="text-center ">
+          <a id="social_media-icons" href="#">
+            <a href="https://www.youtube.com/"><img class="mx-2" src="Images/youtube(1).png" alt="YT image" /></a>
+            <a href="https://www.facebook.com/"><img class="mx-2" src="Images/facebook(1).png" alt="FB image" /></a>
+            <a href="https://www.instagram.com/"><img class="mx-2" src="Images/instagram(1).png"
+                alt="instagram image" /></a>
+            <a href="https://in.linkedin.com/"><img class="mx-2" src="Images/linkedin(1).png"
+                alt="linkedin image" /></a>
+            <a href="https://github.com/"><img class="mx-2" src="Images/github-logo.png" alt="github image" />
+              <a href="https://www.google.com/"><img class="mx-2" src="Images/google-plus (1).png"
+                  alt="google image" /></a>
+              <a href="https://twitter.com/?lang=en"><img class="mx-2" src="Images/twitter (2).png"
+                  alt="twitter image" /></a>
+            </a>
+        </div>
+        <div class="text-center my-2">
+          <p>Activello. Theme by Colorlib Powered by WordPress</p>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!--Footer End -->
+</body>
+</html>
