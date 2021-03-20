@@ -104,14 +104,7 @@ ul li:hover {
   padding: 30px 15px 0px;
 }
 .horizontal_line::after{
-    content: "";
-    position: absolute;
-    left: 40%;
-    bottom: 0;
-    height: 2px;
-    width: 60px;
-    background: #7f3f9c;
-    margin-left: -20px;
+ 
 }
 .curser-pointer {
   cursor: pointer;
